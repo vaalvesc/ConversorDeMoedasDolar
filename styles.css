@@ -1,0 +1,107 @@
+
+
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    /*background-image: url('https://th.bing.com/th/id/R28f85318b26ea49e71599ee259740e08?rik=wL6FNbYPjj4LEg&riu=http%3a%2f%2fwww.megasistema.com.br%2frepositorio%2fuploads%2fnoticia%2f17639%2fdolar-do-cartao-tera-de-ser-o-do-dia-da-compra-a-partir-de2-de-marco-084048.jpg&ehk=GoOIhSUQVgBn2ZMxC8eunLzKLk4BxeuYUYQXgz%2b9jTo%3d&risl=&pid=ImgRaw');
+    */background-color: #000000;
+    background-size: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .container {
+
+    text-align: center;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    top:0;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    opacity: 0.95;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+  }
+  
+  .page-title {
+    color: yellow;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: yellow;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 30%;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+  form {
+    color:white;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+}
+
+  fieldset {
+    
+    grid-column: 1/1;
+    /* grid-row: 2/ 2; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 2rem 0;
+    border: none;
+    text-align: center;
+    padding: 30px;
+
+  }
+input {
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  border: 1px solid rgb(32, 22, 22);
+  box-shadow: rgb(0 17 51 / 5%) 0px 3px 15px;
+  padding: 12px;
+  color: rgb(20, 30, 55);
+  background: none;
+  background-color: #ffffff;
+  margin: 30px 0 15px 0;
+}
+
+
+.box {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  width: 800px;
+  min-height: 400px;
+  background: rgba(255, 255, 255, 0.5);
+  background-image:url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-2-calculadora-certa.png');
+  z-index: 20;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 -5px 20px rgb(255 255 255 / 48%);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
